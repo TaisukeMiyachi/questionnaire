@@ -1,0 +1,478 @@
+/* タイトルページ */
+#title_page {
+    width: 100%;
+    height: 100vh;
+    background: url("img/A7300340.JPG");
+    background-size: cover;
+
+}
+
+.title_name {
+    width: 70%;
+    height: 40vh;
+    padding-top: 46vh;
+    padding-bottom: auto;
+    margin-bottom: 30px;
+}
+
+.title_main {
+    font-size: 96px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.title_sub {
+    font-size: 48px;
+    margin-bottom: auto;
+}
+
+.start a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70%;
+    padding: 1em 2em;
+    width: 200px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #cccccc;
+    border-radius: 50vh;
+}
+
+.start a::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #333333;
+    border-right: 3px solid #333333;
+    transform: rotate(45deg);
+    margin-left: 20px;
+}
+
+.start a:hover {
+    text-decoration: none;
+    background-color: #bbbbbb;
+}
+
+/* name_inputページ//////////////////////////////////////////////////// */
+#name_input {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/man-g0b9a3d479_1920.jpg);
+    background-size: cover;
+}
+
+#name_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: orange;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.comment {
+    width: 80%;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.left_area {
+    width: 50%;
+
+}
+
+.right_area {
+    width: 50%;
+    height: 90%;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 8px;
+    padding: 20px;
+
+}
+
+.parsonal_info {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: x-large;
+}
+
+.name_page {
+    object-fit: cover;
+}
+
+.high_school {
+    text-align: right;
+    font-size: x-large;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+#class_number,
+#student_number {
+    width: 50px;
+    height: 30px;
+}
+
+.family {
+    margin-left: 10px;
+}
+
+#family_name {
+    width: 80px;
+    height: 30px;
+}
+
+#first_name {
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.next a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70%;
+    margin-top: 40px;
+    padding: 1em 2em;
+    width: 200px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #cccccc;
+    border-radius: 50vh;
+}
+
+.next a::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #333333;
+    border-right: 3px solid #333333;
+    transform: rotate(45deg);
+    margin-left: 20px;
+}
+
+.next a:hover {
+    text-decoration: none;
+    background-color: #bbbbbb;
+}
+
+.back a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70%;
+    padding: 1em 2em;
+    width: 200px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #cccccc;
+    border-radius: 50vh;
+}
+
+.back a::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #333333;
+    border-right: 3px solid #333333;
+    transform: rotate(225deg);
+    margin-right: 20px;
+}
+
+.back a:hover {
+    text-decoration: none;
+    background-color: #bbbbbb;
+}
+
+#family_Name,
+#first_Name {
+    border-radius: 5px;
+}
+
+.button_arrange {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* questionpage////////////////////////////////////////////////// */
+/* 問1 */
+#question1 {
+    width: 100%;
+    height: 100vh;
+}
+
+.no1 {
+    background-image: url(img/politics.png);
+    background-size: cover;
+}
+
+.no2 {
+    background-image: url(img/desire.png);
+    background-size: cover;
+}
+
+.no3 {
+    background-image: url(img/finance.png);
+    background-size: cover;
+}
+
+.no4 {
+    background-image: url(img/college.png);
+    background-size: cover;
+}
+
+.no5 {
+    background-image: url(img/crime.png);
+    background-size: cover;
+}
+
+.question {
+    height: 15%;
+    width: 100%;
+    background-color: #333333;
+    color: aliceblue;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.number {
+    width: 30%;
+    font-size: 30px;
+    margin-left: 45px;
+}
+
+.question_text {
+    font-size: 25px;
+}
+
+.select_News {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.select_company {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#company {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#nations {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.select_travel {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.no1,
+.no2,
+.no3,
+.no4,
+.no5 {
+    /* border: 1px solid black; */
+    width: 250px;
+    height: 250px;
+}
+
+/** Custom Select **/
+#sel_socialProblem {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.custom-select-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+}
+
+.custom-select-wrapper select {
+    display: none;
+}
+
+.custom-select {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-select-trigger {
+    position: relative;
+    display: block;
+    width: 130px;
+    padding: 0 84px 0 22px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 60px;
+    background: #5c9cd8;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.custom-select-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0;
+}
+
+.custom-select.opened .custom-select-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%);
+}
+
+.custom-options {
+    position: absolute;
+    display: block;
+    top: 100%;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    margin: 15px 0;
+    border: 1px solid #b5b5b5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .07);
+    background: #fff;
+    transition: all .4s ease-in-out;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-15px);
+}
+
+.custom-select.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+}
+
+.custom-options:before {
+    position: absolute;
+    display: block;
+    content: '';
+    bottom: 100%;
+    right: 25px;
+    width: 7px;
+    height: 7px;
+    margin-bottom: -4px;
+    border-top: 1px solid #b5b5b5;
+    border-left: 1px solid #b5b5b5;
+    background: #fff;
+    transform: rotate(45deg);
+    transition: all .4s ease-in-out;
+}
+
+.option-hover:before {
+    background: #f9f9f9;
+}
+
+.custom-option {
+    position: relative;
+    display: block;
+    padding: 0 22px;
+    border-bottom: 1px solid #b5b5b5;
+    font-size: 18px;
+    font-weight: 600;
+    color: #b5b5b5;
+    line-height: 47px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.custom-option:first-of-type {
+    border-radius: 4px 4px 0 0;
+}
+
+.custom-option:last-of-type {
+    border-bottom: 0;
+    border-radius: 0 0 4px 4px;
+}
+
+.custom-option:hover,
+.custom-option.selection {
+    background: #f9f9f9;
+}
+
+
+/* 問2 */
+#question2 {
+    width: 100%;
+    height: 100vh;
+}
+
+/* 問3 */
+#question3 {
+    width: 100%;
+    height: 100vh;
+}
+
+/* 問4 */
+#quetion4 {
+    width: 100%;
+    height: 100vh;
+}
+
+/* 問5 */
+
+#quetion5 {
+    width: 100%;
+    height: 100vh;
+}
+
+
+#transport {
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+}
+
+/* confirmingpage//////////////////////////////////// */
