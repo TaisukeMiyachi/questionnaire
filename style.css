@@ -2,7 +2,7 @@
 #title_page {
     width: 100%;
     height: 100vh;
-    background: url("img/A7300340.JPG");
+    background: url("img/mainvisual.jpeg");
     background-size: cover;
 
 }
@@ -10,7 +10,7 @@
 .title_name {
     width: 70%;
     height: 40vh;
-    padding-top: 46vh;
+    padding-top: 35vh;
     padding-bottom: auto;
     margin-bottom: 30px;
 }
@@ -25,6 +25,11 @@
 .title_sub {
     font-size: 48px;
     margin-bottom: auto;
+}
+
+.button_start {
+    display: flex;
+    justify-content: left;
 }
 
 .start a {
@@ -71,7 +76,7 @@
 }
 
 h1 {
-    color: orange;
+    color: white;
     font-size: 70px;
     font-weight: bold;
     text-align: center;
@@ -308,6 +313,13 @@ h1 {
     /* border: 1px solid black; */
     width: 250px;
     height: 250px;
+}
+
+#free_text1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
 }
 
 /** Custom Select **/

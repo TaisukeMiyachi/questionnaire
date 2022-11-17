@@ -39,16 +39,20 @@ if (localStorage.getItem("parsonal")) {
 $("#decision").on("click", function () {
     const social = $("#sources").val();
     const company = $("#select_company").val();
-    const nations = $("#nations").val();
+    const nations = $("#nations_area").val();
+    const comment = $("#free_text").val();
+
 
     console.log(social);
     console.log(company);
     console.log(nations);
+    console.log(comment);
 
     const data = {
         social: social,
         company: company,
         nations: nations,
+        comment: comment,
     };
     console.log(data);
     const jsonData = JSON.stringify(data);
@@ -64,6 +68,8 @@ if (localStorage.getItem("note")) {
     $("#answer1").text(data.social);
     $("#answer2").text(data.company);
     $("#answer3").text(data.nations);
+    $("#answer4").text(data.comment);
+
 }
 
 // 解説ページ
@@ -76,7 +82,7 @@ let options = "";
 for (i = start; i <= end; i++) {
     options += "<option>" + i + "</option>"
 }
-console.log(options)
+
 $("#student_number").html(options);
 
 $(".custom-select").each(function () {
